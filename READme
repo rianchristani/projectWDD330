@@ -1,5 +1,0 @@
-// key -> bQynasKJ5ra6DTi99DEFtjirTa3uuMvJmSC9r3sJ
-
-// https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY -- images
-
-// https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=DEMO_KEY -- asteroid
