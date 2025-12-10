@@ -9,6 +9,7 @@
     <script type="module" src="./scripts/asteroid-info.js"></script>
     <script type="module" src="./scripts/image.js"></script>
     <script src="./scripts/header.js" defer></script>
+    <script src="./scripts/footer.js" defer></script>
 
     <link rel="icon" href="./images/galaxy-icon.png">
     <link rel="stylesheet" href="./CSS/styles.css">
@@ -22,7 +23,9 @@
             <h1>Discover the Universe</h1>
         </div>
 
-        <div id="options">
+        <button type="button" id="menu"></button>
+
+        <div id="options" class="navigation">
             <h3 id="learnMore">Learn more &or;</h3>
             <div id="myModal" class="modal"></div>
             <h3><a href="https://plus.nasa.gov/">NASA+</a></h3>
@@ -42,6 +45,9 @@
             </div>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 🛸 All rights reserved</p>
+        <p class="lastM">Last time modified by ADM: <span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>
